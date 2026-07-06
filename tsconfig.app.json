@@ -3,9 +3,6 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "module": "ES2020",
-    "target": "ES2020",
-    "strict": true,
     "outDir": "./out-tsc/app",
     "types": ["node", "@angular/localize"]
   },

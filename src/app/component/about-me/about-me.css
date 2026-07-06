@@ -1,0 +1,40 @@
+h3 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  color: white;
+  text-align: center;
+}
+
+li {
+  color: white;
+  text-align: center;
+  list-style: none;
+  position: relative;
+  padding-left: 1.2rem;
+  margin-bottom: 0.5rem; /* spacing between bullets */
+  line-height: 1.5;
+}
+
+ul {
+  margin: 0;
+  padding-left: 1.2rem; /* controls bullet indentation */
+}
+
+.secondary-link{
+  color: white;
+  text-align: center;
+}
+
+.social-icon{
+  width: 40px;
+  height: 40px;
+  background-size: contain; /* or cover */
+  border-radius: 50%;
+}
+
+.social-links{
+  text-align: center;
+}
