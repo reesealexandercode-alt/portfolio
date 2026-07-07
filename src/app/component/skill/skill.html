@@ -1,1 +1,57 @@
-<p>skill works!</p>
+<div class="technical-skills">
+  <div>
+    <h3>My Techincal Skills</h3>
+  </div>
+
+<div class="cards-grid">
+  <mat-card class="skill-card" appearance="outlined">
+    <img mat-card-image src="https://th.bing.com/th/id/R.3e98e9e20822e10aa3683e7e8b88e47f?rik=i3qJcWQwL9uFEQ&pid=ImgRaw&r=0" alt="image of SQL">
+    <mat-card-content>
+      <h4>SQL</h4>
+      <div class="rating" [attr.aria-label]="sqlRate + ' out of ' + sqlMax + ' stars'">
+        <span class="star" *ngFor="let state of getStars(sqlRate, sqlMax)" [class.filled]="state === 'filled'">★</span>
+      </div>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card class="skill-card" appearance="outlined">
+    <img mat-card-image src="https://c0.uidownload.com/pngpics/180/2787/c-logo-net-framework-icon-purple-software-symbol-microsoft-developer-tools-programming-language-emblem-tech-framework-badge-coding-environment-marker.png" alt="C# Icon">
+    <mat-card-content>
+      <h4>C#</h4>
+      <div class="rating" [attr.aria-label]="csharpRate + ' out of ' + csharpMax + ' stars'">
+        <span class="star" *ngFor="let state of getStars(csharpRate, csharpMax)" [class.filled]="state === 'filled'">★</span>
+      </div>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card class="skill-card" appearance="outlined">
+    <img mat-card-image src="https://tse4.mm.bing.net/th/id/OIP.MUftltuMVTNAYtgVfhRPuQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt=".Net Icon">
+    <mat-card-content>
+      <h4>.NET</h4>
+      <div class="rating" [attr.aria-label]="netRate + ' out of ' + netMax + ' stars'">
+        <span class="star" *ngFor="let state of getStars(netRate, netMax)" [class.filled]="state === 'filled'">★</span>
+      </div>
+    </mat-card-content>
+  </mat-card>
+
+    <mat-card class="skill-card" appearance="outlined">
+    <img mat-card-image src="https://th.bing.com/th/id/R.f1c10594665a4f45320afd924bcbcdac?rik=PooFHZNU28fsuQ&pid=ImgRaw&r=0" alt="HTML Icon">
+    <mat-card-content>
+      <h4>HTML</h4>
+      <div class="rating" [attr.aria-label]="htmlRate + ' out of ' + htmlMax + ' stars'">
+        <span class="star" *ngFor="let state of getStars(htmlRate, htmlMax)" [class.filled]="state === 'filled'">★</span>
+      </div>
+    </mat-card-content>
+  </mat-card>
+
+    <mat-card class="skill-card" appearance="outlined">
+    <img mat-card-image src="https://toppng.com/public/uploads/preview/html-css-js-icons-11563328364gmstz4ubs9.png" alt="CSS Icon">
+    <mat-card-content>
+      <h4>CSS</h4>
+      <div class="rating" [attr.aria-label]="cssRate + ' out of ' + cssMax + ' stars'">
+        <span class="star" *ngFor="let state of getStars(cssRate, cssMax)" [class.filled]="state === 'filled'">★</span>
+      </div>
+    </mat-card-content>
+  </mat-card>
+</div>
+</div>

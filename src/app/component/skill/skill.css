@@ -1,0 +1,45 @@
+h3 {
+  color: white;
+  text-align: center;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.skill-card {
+  background: linear-gradient(145deg, rgba(15, 23, 42, 0.98), rgba(30, 41, 59, 0.95));
+  color: #f8fafc;
+  border: 1px solid rgba(226, 232, 240, 0.18);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(2, 6, 23, 0.35);
+}
+
+.skill-card img {
+  object-fit: cover;
+  height: 150px;
+  width: 150px;
+  filter: brightness(0.95) contrast(1.05);
+}
+
+.skill-card h4 {
+  margin: 0 0 0.4rem;
+  color: #f8fafc;
+  text-align: center;
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+  gap: 0.25rem;
+  font-size: 1.2rem;
+  color: #64748b;
+}
+
+.star.filled {
+  color: #fbbf24;
+}
