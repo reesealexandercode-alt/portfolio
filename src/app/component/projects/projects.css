@@ -7,3 +7,15 @@ p {
   text-align: center;
   color: white;
 }
+
+.project-card p {
+  color: black;
+  text-align: center;
+}
+
+mat-card-title, mat-card-subtitle {
+  color: black;
+  text-align: center;
+}
+
+

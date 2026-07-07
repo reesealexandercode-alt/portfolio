@@ -1,4 +1,45 @@
-h3 {
+.experience-page {
+  padding: 2rem 1.5rem;
+}
+
+.experience-header {
+  margin-bottom: 1.5rem;
+}
+
+.experience-header h3 {
   color: white;
   text-align: center;
+  margin: 0.25rem 0;
+}
+
+.FIS-header h4 {
+  color: white;
+  text-align: center;
+  margin: 0.25rem 0;
+}
+
+.experience-accordion {
+  display: block;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.experience-accordion mat-expansion-panel {
+  margin-bottom: 0.75rem;
+  border-radius: 12px !important;
+  overflow: hidden;
+}
+
+.experience-accordion mat-expansion-panel-header {
+  background: rgba(248, 250, 252, 0.95);
+}
+
+.experience-accordion ul {
+  padding-left: 1.25rem;
+  margin: 0.5rem 0 0;
+}
+
+.experience-accordion li {
+  margin-bottom: 0.5rem;
+  color: black;
 }

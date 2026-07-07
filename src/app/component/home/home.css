@@ -1,0 +1,76 @@
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+}
+
+h4 {
+  color: white;
+  text-align: center;
+}
+
+.button button {
+  display: block;
+  margin: 0 auto;
+  color: white;
+}
+
+p {
+  color: white;
+  text-align: center;
+}
+
+.about-img img{
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.thing-i-do span {
+  color: white;
+  text-align: center;
+}
+
+.about-me p {
+  text-align: center;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+li {
+  color: white;
+  text-align: center;
+  list-style: none;
+  position: relative;
+  padding-left: 1.2rem;
+  margin-bottom: 0.5rem; /* spacing between bullets */
+  line-height: 1.5;
+}
+
+ul {
+  margin: 0;
+  padding-left: 1.2rem; /* controls bullet indentation */
+}
+
+.secondary-link{
+  color: white;
+  text-align: center;
+}
+
+.social-icon{
+  width: 40px;
+  height: 40px;
+  background-size: contain; /* or cover */
+  border-radius: 50%;
+}
+
+.social-links{
+  text-align: center;
+}
