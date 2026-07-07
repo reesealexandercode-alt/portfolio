@@ -1,8 +1,9 @@
-name: Deploy Portfolio
+name: Deploy Portfolio Site
 
 on:
   push:
     branches: [main]
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -12,7 +13,7 @@ jobs:
 
       - uses: actions/setup-node@v3
         with:
-          node-version: '20'
+          node-version: '22'
 
       - name: Install dependencies
         run: npm install
