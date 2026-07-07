@@ -9,6 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+<<<<<<< HEAD
       
       - uses: actions/setup-node@v3
         with:
@@ -22,6 +23,14 @@ jobs:
       
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
+=======
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+      - run: npm install
+      - run: npm run build -- --base-href "https://reesealexandercode-alt.github.io/portfolio/"
+      - uses: peaceiris/actions-gh-pages@v3
+>>>>>>> 9d5a6bd3913c237f2b08f5aa5056371861ca56de
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist/portfolio
