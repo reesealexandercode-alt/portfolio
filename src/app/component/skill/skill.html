@@ -44,12 +44,22 @@
     </mat-card-content>
   </mat-card>
 
-    <mat-card class="skill-card" appearance="outlined">
-    <img mat-card-image src="https://toppng.com/public/uploads/preview/html-css-js-icons-11563328364gmstz4ubs9.png" alt="CSS Icon">
+  <mat-card class="skill-card" appearance="outlined">
+    <img mat-card-image src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" alt="CSS Icon">
     <mat-card-content>
       <h4>CSS</h4>
       <div class="rating" [attr.aria-label]="cssRate + ' out of ' + cssMax + ' stars'">
         <span class="star" *ngFor="let state of getStars(cssRate, cssMax)" [class.filled]="state === 'filled'">★</span>
+      </div>
+    </mat-card-content>
+  </mat-card>
+
+    <mat-card class="skill-card" appearance="outlined">
+    <img mat-card-image src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png" alt="Python Icon">
+    <mat-card-content>
+      <h4>Python</h4>
+      <div class="rating" [attr.aria-label]="pythonRate + ' out of ' + pythonMax + ' stars'">
+        <span class="star" *ngFor="let state of getStars(pythonRate, pythonMax)" [class.filled]="state === 'filled'">★</span>
       </div>
     </mat-card-content>
   </mat-card>
